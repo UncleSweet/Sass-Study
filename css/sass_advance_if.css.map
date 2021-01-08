@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,mBAAmB;AAcnB,MAAa;EAVP,OAAO,EAAE,IAAI;;;AAcnB,MAAa;EAXP,OAAO,EAAE,KAAK;;;AAepB,MAAc;EAZR,OAAO,EAAE,IAAI",
+"sources": ["../sass/sass_advance_if.scss"],
+"names": [],
+"file": "sass_advance_if.css"
+}

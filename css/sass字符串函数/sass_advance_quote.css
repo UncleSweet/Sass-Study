@@ -1,0 +1,13 @@
+.str1::before {
+  content: "hello world";
+}
+
+.str2::before {
+  content: "hello-world";
+}
+
+.str2::before {
+  content: "hello-world";
+}
+
+/*# sourceMappingURL=sass_advance_quote.css.map */

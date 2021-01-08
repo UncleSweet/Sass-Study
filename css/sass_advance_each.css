@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* 
+    思路：
+    1、创建一个值会改变的列表
+    2、介于此情况定义一个混合宏等等让父类调用
+    3、使用@each对列表里面每一个值都遍历出来，然后再相对应的赋值 
+*/
+.author-bio .photo-adam {
+  background: url("/image/avatars/adam.png") no-repeat;
+}
+.author-bio .photo-john {
+  background: url("/image/avatars/john.png") no-repeat;
+}
+.author-bio .photo-wynn {
+  background: url("/image/avatars/wynn.png") no-repeat;
+}
+.author-bio .photo-mason {
+  background: url("/image/avatars/mason.png") no-repeat;
+}
+.author-bio .photo-kuroir {
+  background: url("/image/avatars/kuroir.png") no-repeat;
+}
+
+/*# sourceMappingURL=sass_advance_each.css.map */

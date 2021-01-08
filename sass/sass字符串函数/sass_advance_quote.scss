@@ -1,0 +1,22 @@
+$str1:hello world;
+$str2:hello-world;
+$str3:hello_world;
+
+.str1{
+    &::before{
+        content: quote($string: #{$str1});  //如果除了-和_意外的特殊字符是不可以直接使用变量的，如果是变量则需用插值。
+    }
+}
+
+
+.str2{
+    &::before{
+        content: quote($string:$str2);   
+    }
+}
+
+.str2{
+    &::before{
+        content: quote($string:$str2);   
+    }
+}

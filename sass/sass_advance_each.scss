@@ -1,0 +1,23 @@
+//@each 循环就是去遍历一个列表，然后从列表中取出对应的值。
+/* 
+    思路：
+    1、创建一个值会改变的列表
+    2、介于此情况定义一个混合宏等等让父类调用
+    3、使用@each对列表里面每一个值都遍历出来，然后再相对应的赋值 
+*/
+
+
+$list: adam john wynn mason kuroir;  //$list 就是一个列表
+
+@mixin author-image(){
+    @each $image-name in $list{
+        .photo-#{$image-name}{
+            background: url("/image/avatars/#{$image-name}.png") no-repeat;
+        }
+    }
+}
+
+.author-bio{
+    @include author-image();
+}
+

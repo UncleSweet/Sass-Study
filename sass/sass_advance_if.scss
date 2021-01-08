@@ -1,0 +1,25 @@
+/* 使用@if实现简单的筛选器 */
+$one:1;$two:2;$three:3;
+@mixin blockOrHidden($count) {
+    @if ($count==$one) {
+      display: none;
+    }
+    @else if($count==$two) {
+      display: block;
+    }
+    @else{
+      display: flex;
+    }
+}
+
+.box-#{$one} {
+  @include blockOrHidden($one);
+}
+
+.box-#{$two} {
+  @include blockOrHidden($two);
+}
+
+.box-#{$three}{
+  @include blockOrHidden($three);
+}

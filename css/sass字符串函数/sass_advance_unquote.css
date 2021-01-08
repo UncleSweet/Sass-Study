@@ -1,0 +1,17 @@
+.str1::before {
+  content: hello world;
+}
+
+.str2::before {
+  content: 'hello world';
+}
+
+.str3::before {
+  content: "hello world";
+}
+
+.str4::before {
+  content: hello world;
+}
+
+/*# sourceMappingURL=sass_advance_unquote.css.map */

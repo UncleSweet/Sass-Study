@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* 使用@if实现简单的筛选器 */
+.box-1 {
+  display: none;
+}
+
+.box-2 {
+  display: block;
+}
+
+.box-3 {
+  display: flex;
+}
+
+/*# sourceMappingURL=sass_advance_if.css.map */

@@ -1,0 +1,14 @@
+/* Through实现的for循环，包括最后的值 */
+@for $i from 1 through 3{
+    .item-#{$i} {
+        height:2em * $i;
+    }
+}
+
+/* To 实现的for循环，不包括最后的值 */
+@for $a from 1 to 3{
+    .item_#{$a}{
+        width:1em * $a;
+    }
+}
+

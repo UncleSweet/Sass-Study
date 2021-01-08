@@ -1,0 +1,10 @@
+/* scss while循环 */
+$count:4;                      //这里是指循环数量
+$count-width:20px;             //这里是指起始宽度（会递减）
+
+@while $count > 0{
+    .box-#{$count}{                      //分别是4、3、2、1
+        width:$count-width + $count;     //对应是24、23、22、21
+    }
+    $count:$count - 1;                   //变量递减
+}

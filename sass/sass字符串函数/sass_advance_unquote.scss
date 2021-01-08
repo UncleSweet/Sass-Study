@@ -1,0 +1,28 @@
+$str1:"hello world";
+$str2:"'hello world'";
+$str3:'"hello world"';
+$str4:hello world;
+
+.str1{
+    &::before{
+        content: unquote($string:$str1);
+    }
+}
+
+.str2{
+    &::before{
+        content: unquote($string:$str2);
+    }
+}
+
+.str3{
+    &::before{
+        content: unquote($string:$str3);
+    }
+}
+
+.str4{
+    &::before{
+        content: unquote($string:$str4);
+    }
+}

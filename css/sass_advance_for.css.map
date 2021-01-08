@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,4BAA4B;AAExB,OAAY;EACR,MAAM,EAAC,GAAQ;;;AADnB,OAAY;EACR,MAAM,EAAC,GAAQ;;;AADnB,OAAY;EACR,MAAM,EAAC,GAAQ;;;AAIvB,yBAAyB;AAErB,OAAW;EACP,KAAK,EAAC,GAAQ;;;AADlB,OAAW;EACP,KAAK,EAAC,GAAQ",
+"sources": ["../sass/sass_advance_for.scss"],
+"names": [],
+"file": "sass_advance_for.css"
+}

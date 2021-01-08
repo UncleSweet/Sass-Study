@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKI,aAAS;EACL,OAAO,EAAE,aAAwB;;;AAMrC,aAAS;EACL,OAAO,EAAE,aAAoB;;;AAKjC,aAAS;EACL,OAAO,EAAE,aAAoB",
+"sources": ["../../sass/sass%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0/sass_advance_quote.scss"],
+"names": [],
+"file": "sass_advance_quote.css"
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Through实现的for循环，包括最后的值 */
+.item-1 {
+  height: 2em;
+}
+
+.item-2 {
+  height: 4em;
+}
+
+.item-3 {
+  height: 6em;
+}
+
+/* To 实现的for循环，不包括最后的值 */
+.item_1 {
+  width: 1em;
+}
+
+.item_2 {
+  width: 2em;
+}
+
+/*# sourceMappingURL=sass_advance_for.css.map */

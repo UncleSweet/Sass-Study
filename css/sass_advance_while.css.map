@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,kBAAkB;AAKd,MAAc;EACV,KAAK,EAAC,IAAqB;;;AAD/B,MAAc;EACV,KAAK,EAAC,IAAqB;;;AAD/B,MAAc;EACV,KAAK,EAAC,IAAqB;;;AAD/B,MAAc;EACV,KAAK,EAAC,IAAqB",
+"sources": ["../sass/sass_advance_while.scss"],
+"names": [],
+"file": "sass_advance_while.css"
+}
